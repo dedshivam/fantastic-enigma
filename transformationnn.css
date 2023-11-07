@@ -1,0 +1,109 @@
+.a{
+    height: 80px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-top: 28px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    box-shadow: 2px 2px 6px black;
+
+}
+#outer{
+    display: inline-block;
+    background-color: rgba(224, 231, 236,0);
+}
+div:nth-last-of-type(2n){
+    background-color: skyblue;
+}
+div:nth-last-of-type(2n+1){
+    background-color: orange;
+}
+#one{
+    margin-top: 80px;
+}
+#one:hover{
+    transform: rotate(45deg);
+    transition: 1s;
+}
+#two{
+    transform: rotate(-45deg);
+}
+#three{
+    margin-top: 80px;
+    transform: rotate(45deg);
+}
+#three:hover{
+    transition: 1s;
+    transform: translate(0px,0px);
+}
+#three:active{
+    transform: rotate(90deg);
+    height: 40px;
+    width: 100px;
+
+}
+#four{
+    margin-top: 80px;
+    transform: rotate(-45deg);
+}
+#five{
+    margin-top: 25px;
+    text-align: bottom;
+    
+}
+#five:hover{
+    transition: 1s;
+    transform: rotate(45deg);
+}
+#diff{
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: rgba(122, 240, 240, 0.7);
+    color: black;
+    display: inline-block;
+    margin-left: 500px;
+    font-weight: bold;
+    font-size: 50px;
+    box-shadow: 2px 2px 6px black;
+
+}
+#diff:hover{
+    transform: translate(0px,-600px) rotate(180deg);
+    transition: 2s;
+    box-shadow: 2px 2px 6px black;
+}
+#love{
+    transform: translateY(-300px);
+    margin-left: 50px;
+    background-color: rgb(234, 122, 122);
+    color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 50px;
+}
+#love:hover{
+    transform: scale(1.5) translateY(-300px);
+    transition: 1.5s;
+}
+#bag{
+    display: inline-block;
+    height: 400px;
+    width: 350px;
+    border: 2px solid black;
+    margin-left: 60px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 6px black;
+    background-image: url(wallpaperflare.jpg) ;
+}
+#bag:hover{
+    
+    transform: scale(1.2);
+    border-radius: 0px;
+    transition: 1s;
+}
